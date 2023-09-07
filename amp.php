@@ -54,7 +54,7 @@ $_amp_required_extensions = array(
 		),
 	),
 	'dom'    => array(
-		'classes' => array(
+		'classes'    => array(
 			'DOMAttr',
 			'DOMComment',
 			'DOMDocument',
