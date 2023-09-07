@@ -88,7 +88,6 @@ return [
 	'parameters' => [
 		'ignoreErrors' => array_merge(
 			$ignore_errors_in_class_amp_allowed_tags_generated,
-			$ignore_errors_due_to_instanceof_always_evaluating_to_false,
 			$ignore_errors_due_to_function_and_method_exists_always_evaluating_to_true
 		),
 	],
