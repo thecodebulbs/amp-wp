@@ -63,7 +63,7 @@ $ignore_errors_due_to_instanceof_always_evaluating_to_false = [
  */
 $ignore_errors_due_to_function_and_method_exists_always_evaluating_to_true = [
 	[
-		'message' => '#^Call to function method_exists\\(\\) with WP_Query and \'is_favicon\' will always evaluate to true\\.$#',
+		'message'                    => '#^Call to function method_exists\\(\\) with WP_Query and \'is_favicon\' will always evaluate to true\\.$#',
 		'count'   => 1,
 		'path'    => __DIR__ . '/includes/amp-helper-functions.php',
 	],
