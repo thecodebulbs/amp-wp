@@ -43,7 +43,7 @@ if ( version_compare( phpversion(), '7.0', '<' ) ) {
 $_amp_required_extensions = array(
 	// Required by FasterImage.
 	'curl'   => array(
-		'functions' => array(
+		'functions'   => array(
 			'curl_close',
 			'curl_errno',
 			'curl_error',
